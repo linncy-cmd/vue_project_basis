@@ -1,5 +1,9 @@
 <template>
-  <div>默认模板</div>
+  <div class="container">
+    <div class="login_box">
+      登录页面
+    </div>
+  </div>
 </template>
 
 <script>
@@ -12,4 +16,7 @@ export default {
 }
 </script>
 <style lang='less' scoped>
+  .container{
+    background-color: yellow;
+  }
 </style>
